@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Polling Unit Result</title>
+  </head>
+  <body>
+    <form action="/store_result" method="post">
+      <label for="polling_unit_id">Polling Unit ID:</label>
+      <input type="number" id="polling_unit_id" name="polling_unit_id" />
+
+      <label for="party_name">Party:</label>
+      <input type="text" id="party_name" name="party_name" />
+
+      <label for="party_score">Votes:</label>
+      <input type="number" id="party_score" name="party_score" />
+
+      <button type="submit">Submit Results</button>
+    </form>
+  </body>
+</html>
